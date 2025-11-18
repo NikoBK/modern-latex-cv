@@ -7,29 +7,33 @@
 \AtBeginShipoutFirst{\Header{Cover Letter}\Footer{1}}
 \newpage
 
-%%%%ANSCHREIBEN
-
 \cvtext{}\\[10pt]
- \begin{tabular}[t]{p{5cm}p{9cm}p{6cm}}
-     &  & \cvtext{\textbf{\fullname}} \\
-     &  & \cvtext{\address}\\
-     &  & \cvtext{\zipcode, \city}\\
-     &  & \cvtext{\mobile}\\
-     &  & \cvtext{\mail}\\[20pt]
-    \end{tabular}\\
 
-\cvtext{\textbf{\orgname
-}\newline \orgaddr\newline \orgzip, \orgcity}\\[40pt]
- \raggedright
-  \begin{tabular}[t]{p{5cm}p{6.8cm}p{8cm}}
-     &  & 
-\cvtext{\city, \today}\\[20pt]
-  \end{tabular}
+\begin{tabular}[t]{p{5cm}p{9cm}p{6cm}}
+    &  & \cvtext{\textbf{\fullname}} \\
+    &  & \cvtext{\address}\\
+    &  & \cvtext{\zipcode, \city}\\
+    &  & \cvtext{\mobile}\\
+    &  & \cvtext{\mail}\\[20pt]
+\end{tabular}\\
+
+\cvtext{
+    \textbf{
+        \orgname
+    }\newline 
+    \orgaddr\newline 
+    \orgzip, 
+    \orgcity
+}\\[40pt]
+
+\raggedright
+\begin{tabular}[t]{p{5cm}p{6.8cm}p{8cm}}
+    &  & 
+    \cvtext{\city, \today}\\[20pt]
+\end{tabular}
+
 \cvtext{\large{\textbf{\jobtitle}}}\\[25pt]
-
 \cvtext{\input{tex/coverlettertext}}
-
 \cvtext{\fullname}
-% ZUSAMMENFASSUNG
 
 \end{document}
