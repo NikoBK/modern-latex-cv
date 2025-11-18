@@ -21,7 +21,7 @@
 
 
 
-If you find this repository useful, I would appreciate :star:. This CV is based on an existing [LaTeX template](https://www.xm1math.net/texmaker/) and packs it into a nice modern, but also simple design. The tex folder contains a German version and an English version of the template. 
+This CV is based on an existing [LaTeX template](https://www.xm1math.net/texmaker/) and packs it into a nice modern, but also simple design. You only have to edit `user.tex` and `coverlettertext.tex` for the cover letter. 
 
 ## Preview
 This template more or less uses the same layout and style as the [forked repository](https://GitHub.com/philipempl/modern-latex-cv/) by philipempl.
