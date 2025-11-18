@@ -1,1 +1,40 @@
-% TODO: implement something here..
+% Set up user-settings
+\input{setup/user}
+
+% Document definition
+\documentclass[10pt,A4,english]{article}	
+
+% we use utf8 since we want to build from any machine
+\usepackage[utf8]{inputenc}		
+\usepackage[USenglish]{isodate}
+\usepackage{fancyhdr}
+\usepackage[numbers]{natbib}
+
+% provides \isempty test
+\usepackage{xstring, xifthen}
+\usepackage{enumitem}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{pdfpages}
+\usepackage{changepage}
+
+% some tex-live fonts - choose your own
+
+%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{comfortaa}
+%\usepackage{cmbright}
+\usepackage[default]{raleway}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage[light,math]{iwona}
+%\usepackage[thin]{roboto} 
+
+% set font default
+\renewcommand*\familydefault{\sfdefault} 	
+\usepackage[T1]{fontenc}
+
+% more font size definitions
+\usepackage{moresize}
+
+% include the fontawesome icon set
+\usepackage{fontawesome}

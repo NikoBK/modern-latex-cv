@@ -1,62 +1,3 @@
-%============================================================================%
-%
-%	DOCUMENT DEFINITION
-%
-%============================================================================%
-
-\documentclass[10pt,A4,english]{article}	
-
-
-%----------------------------------------------------------------------------------------
-%	ENCODING
-%----------------------------------------------------------------------------------------
-
-% we use utf8 since we want to build from any machine
-\usepackage[utf8]{inputenc}		
-\usepackage[USenglish]{isodate}
-\usepackage{fancyhdr}
-\usepackage[numbers]{natbib}
-
-%----------------------------------------------------------------------------------------
-%	LOGIC
-%----------------------------------------------------------------------------------------
-
-% provides \isempty test
-\usepackage{xstring, xifthen}
-\usepackage{enumitem}
-\usepackage[english]{babel}
-\usepackage{blindtext}
-\usepackage{pdfpages}
-\usepackage{changepage}
-%----------------------------------------------------------------------------------------
-%	FONT BASICS
-%----------------------------------------------------------------------------------------
-
-% some tex-live fonts - choose your own
-
-%\usepackage[defaultsans]{droidsans}
-%\usepackage[default]{comfortaa}
-%\usepackage{cmbright}
-\usepackage[default]{raleway}
-%\usepackage{fetamont}
-%\usepackage[default]{gillius}
-%\usepackage[light,math]{iwona}
-%\usepackage[thin]{roboto} 
-
-% set font default
-\renewcommand*\familydefault{\sfdefault} 	
-\usepackage[T1]{fontenc}
-
-% more font size definitions
-\usepackage{moresize}
-
-%----------------------------------------------------------------------------------------
-%	FONT AWESOME ICONS
-%---------------------------------------------------------------------------------------- 
-
-% include the fontawesome icon set
-\usepackage{fontawesome}
-
 % use to vertically center content
 % credits to: http://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
 \newcommand{\vcenteredinclude}[1]{\begingroup
@@ -414,7 +355,7 @@
 %	META SKILLS
 %----------------------------------------------------------------------------------------
 	\fcolorbox{white}{white}{\begin{minipage}[c][1.5cm][c]{1\mpwidth}
-		\LARGE{\textbf{\textcolor{maincol}{Philip Empl}}} \\[2pt]
+		\LARGE{\textbf{\textcolor{maincol}{\fullname}}} \\[2pt]
 		\normalsize{ \textcolor{maincol} {Management Information Systems (M. Sc.)} }
 \end{minipage}} \\
 \icontext{CaretRight}{12}{XX.XX.XXXX in Los Angeles}{black}\\[6pt]

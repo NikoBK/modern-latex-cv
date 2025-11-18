@@ -1,64 +1,3 @@
-%============================================================================%
-%
-%	DOCUMENT DEFINITION
-%
-%============================================================================%
-
-%we use article class because we want to fully customize the page and don't use a cv template
-\documentclass[10pt,A4,german]{article}	
-
-
-%----------------------------------------------------------------------------------------
-%	ENCODING
-%----------------------------------------------------------------------------------------
-
-% we use utf8 since we want to build from any machine
-\usepackage[utf8]{inputenc}		
-\usepackage[ngerman]{isodate}
-\usepackage{fancyhdr}
-\usepackage[numbers]{natbib}
-
-%----------------------------------------------------------------------------------------
-%	LOGIC
-%----------------------------------------------------------------------------------------
-
-% provides \isempty test
-\usepackage{xstring, xifthen}
-\usepackage{enumitem}
-\usepackage[german]{babel}
-\usepackage{lipsum}
-\usepackage{pdfpages}
-\usepackage{changepage}
-
-%----------------------------------------------------------------------------------------
-%	FONT BASICS
-%----------------------------------------------------------------------------------------
-
-% some tex-live fonts - choose your own
-
-%\usepackage[defaultsans]{droidsans}
-%\usepackage[default]{comfortaa}
-%\usepackage{cmbright}
-\usepackage[default]{raleway}
-%\usepackage{fetamont}
-%\usepackage[default]{gillius}
-%\usepackage[light,math]{iwona}
-%\usepackage[thin]{roboto} 
-
-% set font default
-\renewcommand*\familydefault{\sfdefault} 	
-\usepackage[T1]{fontenc}
-
-% more font size definitions
-\usepackage{moresize}
-
-%----------------------------------------------------------------------------------------
-%	FONT AWESOME ICONS
-%---------------------------------------------------------------------------------------- 
-
-% include the fontawesome icon set
-\usepackage{fontawesome}
-
 % use to vertically center content
 % credits to: http://tex.stackexchange.com/questions/7219/how-to-vertically-center-two-images-next-to-each-other
 \newcommand{\vcenteredinclude}[1]{\begingroup
@@ -258,7 +197,7 @@
 
 \cvtext{}\\[10pt]
  \begin{tabular}[t]{p{5cm}p{9cm}p{6cm}}
-     &  & \cvtext{\textbf{Philip Empl}} \\
+     &  & \cvtext{\textbf{\fullname}} \\
      &  & \cvtext{Street Name XX}\\
      &  & \cvtext{Zip City}\\
      &  & \cvtext{+XX XXX XXXX XX}\\
